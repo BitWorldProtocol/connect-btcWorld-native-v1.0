@@ -1,0 +1,30 @@
+{
+  "name": "connect-btcworld-native-v1.0",
+  "version": "1.0.0",
+  "description": "Connet Test to Merlin via BTC Connect which powered by Particle Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitWorldProtocol/connect-btcWorld-native-v1.0.git"
+  },
+  "keywords": [
+    "BtcL2",
+    "bridge"
+  ],
+  "author": "june",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BitWorldProtocol/connect-btcWorld-native-v1.0/issues"
+  },
+  "homepage": "https://github.com/BitWorldProtocol/connect-btcWorld-native-v1.0#readme",
+  "dependencies": {
+    "@particle-network/aa": "^1.3.3",
+    "@particle-network/btc-connectkit": "^1.0.0-alpha.7",
+    "@particle-network/chains": "^1.3.21",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1"
+  }
+}
